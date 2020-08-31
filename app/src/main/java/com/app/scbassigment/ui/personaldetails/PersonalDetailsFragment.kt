@@ -21,7 +21,6 @@ import kotlinx.android.synthetic.main.fragment_personal_details.*
 class PersonalDetailsFragment : Fragment(), PersonalDetailsListener {
 
     private var viewModel: PersonalDetailsViewModel? = null
-
     private var hashMap = LinkedHashMap<String, String>()
 
     override fun onCreateView(
